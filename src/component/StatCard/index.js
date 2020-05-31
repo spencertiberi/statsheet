@@ -79,17 +79,6 @@ const Bar = styled(ProgressIndicator)`
   width: 30vw;
   min-width: 250px;
 `
-
-// const Line = styled(Flex)`
-//   border-top: solid 3px rgb(108, 117, 87, 0.5);
-//   height: 0;
-//   width: 100%;
-//   margin: 5px 0;
-//   @media only screen and (max-width: 670px) {
-//     display: none;
-//   }
-// `
-
 const barStyles = {
   progressBar: {
     backgroundColor: '#6c7557',
@@ -118,7 +107,6 @@ const StatLine = ({ stat, level }) => {
 
   return (
     <StatContainer>
-      {/* <Label>{stat}</Label> */}
       <Bar
         percentComplete={value / 10}
         barHeight={10}
@@ -132,7 +120,6 @@ const StatLine = ({ stat, level }) => {
 
 const StatCard = ({ person }) => (
   <Container>
-    {/* <Name>{person.name || 'Error Loading Name'}</Name> */}
     <Row>
       <Bio>
         <Image src={person.image || defaultImage} />
@@ -142,13 +129,7 @@ const StatCard = ({ person }) => (
       <Stats>
         {person.stats
           ? Object.entries(person.stats).map((stat, index, arr) => {
-              // const line = index % 5 === 4 && index < arr.length - 1
-              return (
-                <>
-                  <StatLine stat={stat[0]} level={stat[1]} />
-                  {/* {line && <Line />} */}
-                </>
-              )
+              return <StatLine stat={stat[0]} level={stat[1]} />
             })
           : 'Error Loading Stats'}
       </Stats>
