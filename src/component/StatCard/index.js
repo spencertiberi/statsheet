@@ -81,10 +81,10 @@ const Bar = styled(ProgressIndicator)`
 `
 const barStyles = {
   progressBar: {
-    backgroundColor: '#6c7557',
+    backgroundColor: '#DF8A3B',
   },
   progressTrack: {
-    backgroundColor: 'rgb(108,117,87,0.5)',
+    backgroundColor: 'rgb(50,50,50,0.5)',
   },
   itemProgress: {
     padding: 0,
