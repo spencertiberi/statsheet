@@ -5,18 +5,14 @@ export const defaultUser = {
   image: profileImage,
   bio: `Born in 1991 in the town of Sparks, NV, he grew up in Las Vegas, NV, where he frequently rode ATVs and snowboards and played the Legend of Zelda series. He currently lives in Cambridge, MA, where he often enjoys espresso at Blue Bottle, Darwin's, or Flour.`,
   stats: {
-    Adaptivity: 8,
     'Capacity for Learning': 9,
-    Communication: 9,
+    Communication: 8,
     Creativity: 8,
-    Empathy: 10,
-    Influence: 8,
+    Empathy: 9,
+    Leadership: 8,
     'Project Management': 7,
     Programming: 7,
     'Public Speaking': 9,
-    Strategy: 7,
-    Wit: 9,
-    Writing: 8,
   },
 }
 

@@ -18,6 +18,11 @@ const Bio = styled(Flex)`
   width: 20vw;
   min-width: 200px;
   margin-right: 30px;
+
+  @media only screen and (max-width: 650px) {
+    width: 40vw;
+    min-width: 40vw;
+  }
 `
 
 const Image = styled.img`
@@ -27,6 +32,12 @@ const Image = styled.img`
   min-height: 200px;
   margin: 0 0 10px 0;
   border-radius: 200px;
+
+  @media only screen and (max-width: 650px) {
+    width: 40vw;
+    min-width: 40vw;
+    min-height: 40vw;
+  }
 `
 
 // const Label = styled(Flex)`
@@ -78,6 +89,11 @@ const Text = styled(Flex)`
 const Bar = styled(ProgressIndicator)`
   width: 30vw;
   min-width: 250px;
+
+  @media only screen and (max-width: 650px) {
+    width: 40vw;
+    min-width: 40vw;
+  }
 `
 const barStyles = {
   progressBar: {
