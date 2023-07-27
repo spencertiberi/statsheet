@@ -1,4 +1,4 @@
-import profileImage from './spencerHGSE.jpg'
+import profileImage from './spencerOwl.jpg'
 
 export const defaultUser = {
   name: 'Spencer Lee Tiberi',
