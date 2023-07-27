@@ -3,7 +3,7 @@ import profileImage from './spencerHGSE.jpg'
 export const defaultUser = {
   name: 'Spencer Lee Tiberi',
   image: profileImage,
-  bio: `Born and raised in Las Vegas, NV, where he frequently rode both ATVs and snowboards, with stints of playing the Legend of Zelda series mixed in. A 2021 graduate of HGSE, he currently lives in Cambridge, MA, where he works as a product manager at edX. In his free time he loves to create music and often enjoys a few shots of espresso at Blue Bottle, Darwin's, or Flour.`,
+  bio: `Born and raised in Las Vegas, NV, where he frequently rode both ATVs and snowboards, with stints of playing the Legend of Zelda series mixed in. He currently lives in Milton, MA, where he works as a product manager at edX. In his free time, he loves to create music and often enjoys.`,
   stats: {
     'Business Strategy': 7,
     Creativity: 8,
